@@ -99,7 +99,7 @@ def lambda_handler(event, context):
             'statusCode': 200,
             'body': "No running Dev instances found to stop."
         }
-
+```
 ## 5. Click deploy to save changes
 
 ## Test the Lambda Function Manually
@@ -179,5 +179,3 @@ To avoid ongoing AWS charges, delete the resources you created once you are fini
     *   Navigate to **IAM Console** -> **Roles**.
     *   Search for and select the `LambdaEC2SchedulerRole`.
     *   Click **Delete role** and confirm.
-
-**⚠️ Important:** Ensure you also terminate any EC2 instances you launched for testing if you no longer need them.
